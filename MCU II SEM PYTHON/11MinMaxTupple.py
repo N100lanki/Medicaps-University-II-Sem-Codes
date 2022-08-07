@@ -1,0 +1,5 @@
+tup=(10,20,30,40,50,60,70,80)
+print("Max : ", max(tup))
+print("Min : ", min(tup))
+print("Sum : ", sum(tup))
+print(len(tup),"Length of tupple")

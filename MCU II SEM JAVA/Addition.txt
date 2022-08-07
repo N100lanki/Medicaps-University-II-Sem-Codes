@@ -1,0 +1,38 @@
+package ADD;
+public class Addition {
+
+ void  sum(int x,int y){
+     System.out.println("Addition is "+(a+b));
+ } 
+void  sub(int x,int y){
+     System.out.println("Subtraction is "+(a-b));
+ } 
+void  sum(int x,int y){
+     System.out.println("Multiplication is "+(a*b));
+ } 
+void sumofarray{
+
+        System.out.println("enter arry elements:");
+        Scanner sc=new Scanner(System.in);
+        int []arr = new int[10];
+        int sum=0;
+        for(int i=0;i<10;i++){
+            arr[i]=sc.nextInt();
+        }
+        System.out.print("Elements of Arry:");
+        for(int element :arr){             //For Each Loop
+            System.out.print(element);
+           }
+           System.out.println();
+           for(int i=0;i<arr.length;i++){
+           sum+=arr[i]; 
+        }
+        System.out.println("Sum of all Elements:"+sum);
+    } 
+
+ public static void main(String[] args) {
+     
+     Addition obj = new Addition();
+     obj.sum(10,200);
+ } 
+}

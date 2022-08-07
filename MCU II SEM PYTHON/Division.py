@@ -1,0 +1,5 @@
+x = input("Enter the number ")
+y = input("Enter the second number ")
+y = int(y)
+x = int(x)
+print (y / x)

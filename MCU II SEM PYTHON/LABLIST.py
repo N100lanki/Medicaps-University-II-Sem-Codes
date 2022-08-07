@@ -1,0 +1,50 @@
+'''list=[10,20,[1,2,3.5,'n',"Ninjan100"],30.5,40.5,'N',"Ninjan"]
+for i in list:
+    print(type(i))
+print(type(list))
+print(list[1])
+print(list[-4:-1:1])
+print(list[-4:-20:-1])
+list2=["abc",[1,2,3,4,5],3,"Ninjan","Solanki"]
+print(list2)
+print(list2[3:])
+print(list2[::2])
+print(list2[1:2])
+print(list2[1:1])
+print("---------------------------------------")
+print("List before append :",list2)
+list2.append(30)
+print("List after append :",list2)
+print("---------------------------------------")
+list2.append([30,40,5,0,60,"Ninjan",'m'])
+print("After append a new list",list2)
+print("---------------------------------------")
+list.append(list2)
+print("after Append List2 in list  :",list)
+print("---------------------------------------")
+list[0].append(1)
+print("After Apend at index 0:",list)
+print("---------------------------------------")'''
+list3=[0,1,2,3,4,5,6,7,8,9,10]
+print(list3)
+list3.insert(11,11)
+print("After inser at index 11:",list3)
+list3.insert(0,-1)          #insert(index,Obj)
+print("After inser at index 0:",list3)
+list3.extend("Hello")        #append last of index only string Accepted
+print("List 3 after extend (12,13,14,15,16,17)",list3)
+list3.extend(["Ninjan",'N',"Solanki"])
+#print("List 3 after extend Ninjan N Solanki",list3)
+#list3[0].extend([101,102,103,104])
+print("---------------------------------------")
+print(list3)
+del list3[1]
+print("Delete at index 1",list3)
+print("Poped item is ",list3.pop())
+print("Poped item  at 10 is ",list3.pop(10))
+print("remov item  at Ninjan is ",list3.remove("Ninjan"))
+print(list3)
+list3.clear()
+print("Cleares list :",list3)
+
+

@@ -1,0 +1,1 @@
+input("Enter the list elements : (separate by space) :").split()

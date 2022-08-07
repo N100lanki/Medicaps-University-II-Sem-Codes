@@ -1,0 +1,6 @@
+#Laptop
+#Sun Jul 31 16:22:15 IST 2022
+Brand=DELL
+Model=LAtitude
+OS=Win11
+Proccesor=I7/12
